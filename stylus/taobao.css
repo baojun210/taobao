@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#banner {
+  width: 100%;
+  height: 682px;
+  background-color: #f2f2f2;
+}
+#banner .innerBanner {
+  width: 1190px;
+  height: 542px;
+  margin: 0 auto;
+}
+#banner .innerBanner .banner1 {
+  position: relative;
+  width: 540px;
+  height: 500px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#banner .innerBanner .banner1 .banner {
+  width: 540px;
+  height: 500px;
+  overflow: hidden;
+}
+#banner .innerBanner .banner1 a {
+  width: 540px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+#banner .innerBanner .banner1 a img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 540px;
+  height: 500px;
+}
+#banner .innerBanner .banner1 .banner-l {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  overflow: hidden;
+  z-index: 9999;
+  background: url("../img/icon-slides.png") no-repeat -84px 50%;
+}
+#banner .innerBanner .banner1 .banner-l:hover {
+  cursor: pointer;
+  background-position: 0 50%;
+}
+#banner .innerBanner .banner1 .banner-r {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  overflow: hidden;
+  z-index: 9999;
+  background: url("../img/icon-slides.png") no-repeat -125px 50%;
+}
+#banner .innerBanner .banner1 .banner-r:hover {
+  cursor: pointer;
+  background-position: -42px 50%;
+}
+#banner .innerBanner .banner1 .dots {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  text-align: right;
+  z-index: 999;
+}
+#banner .innerBanner .banner1 .dots a {
+  color: #666;
+  font-size: 12px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border: 2px solid #fff;
+  border-color: rgba(255,255,255,0.3);
+  border-radius: 50%;
+  text-align: left;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: #f5f5f5;
+  background: rgba(0,0,0,0.4);
+  transition: all 0.4s linear;
+}
+#banner .innerBanner .banner1 .dots a:hover {
+  background-color: #fff;
+  border-color: rgba(0,0,0,0.4);
+}
+#banner .innerBanner .banner1 .dots a.current {
+  background-color: #fff;
+  border-color: rgba(0,0,0,0.4);
+}
