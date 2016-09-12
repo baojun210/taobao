@@ -533,6 +533,11 @@
   height: 370px;
   margin: 0 18px 18px 0;
   position: relative;
+  transition: all 0.4s linear;
+}
+.fullNav .first .nav-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(120,120,120,0.5);
 }
 .fullNav .first .nav-list li .main-img {
   position: absolute;
